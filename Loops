@@ -1,0 +1,39 @@
+#TCS
+
+##MATHEMATICAL OPERATORS
+# + - * / ** %
+
+##LOGICAL OPERATORS
+# and or not
+
+###INPUTS
+#name = input("Please enter your name: ")
+#print("Hello, " + name)
+
+#x = int(input("Please enter a number: "))
+#print("Your favorite number is" + str(x))
+
+###WHILE LOOP
+#x = 1
+#while (x<10):
+  #print(x)
+
+
+###FOR LOOP
+#x = 1
+#y = 11
+#z = 1
+#for i in range (x,y,z):
+#  print (i)
+
+
+###TASK:
+#Create a program that asks a user for a range of numbers
+#And then print out every OTHER even number in that range
+
+x = int(input("Please enter a number: "))
+y = int(input("Please enter a greater number: "))
+
+for i in range (x,y + 1,4):
+  print (str(i))
+  
