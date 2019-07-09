@@ -1,0 +1,12 @@
+lowest = 10000000000
+highest = -10000000000
+
+
+
+#Begin a for loop to take in input
+for i in range (1, 11):
+  x = int(input("Enter value " + str(i) + ": "))
+  if (x < lowest):
+    lowest = x
+  if (x > highest):
+    highest = x
