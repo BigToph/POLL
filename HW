@@ -1,0 +1,8 @@
+def ask_name (name):
+  input = (ask_name)
+  #Ask the user's name
+  
+  return name
+
+x = ask_name()
+print (x)
