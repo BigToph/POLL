@@ -1,0 +1,56 @@
+def addition (x,y):
+  return x + y
+
+def subtraction (x,y):
+  return x - y
+
+def multiplication (x,y):
+  return x * y
+
+def division (x,y):
+  return x/y
+
+##Main
+
+numbers = input("Please enter an opperation you would like to do out of,addition,subtraction, multiplication or division?: " )
+
+
+if (numbers == "addition"):
+  print (input("Ok, now enter how many numbers you would like to add."))
+
+
+
+
+
+if (numbers == "subtraction"):
+  print (input("Ok, now enter how many numbers you would like to subtract."))
+
+
+
+
+
+
+if (numbers == "multiplication"):
+  print (input("Ok, now enter how many numbers you would like to multiply."))
+
+
+
+
+
+
+if (numbers == "multiplication"):
+  print (input("Ok now enter how many numbers you would like to divide. "))
+
+
+
+#z = addition (1,7)
+#print (z)
+
+#z = subtraction (1,7)
+#print (z)
+
+#z = multiplication (3,5)
+#print (z)
+
+#z = division (21,7)
+#print (z)
