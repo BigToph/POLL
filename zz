@@ -1,0 +1,4 @@
+x = input("Please enter a radius of a circle")
+
+print (int(x) ** 2 * 3.14)
+
