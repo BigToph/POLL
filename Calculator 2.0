@@ -1,0 +1,59 @@
+##Write a calculator program that asks the user what operation they'd like to do (add/substract/multiply/divide). Following this, the user should be asked how many numbers they would like to use in that operation. The user will be prompted to enter each number, one at a time, and then the code should return the result of the operation
+
+#Example:
+#Input: Addition
+#3
+#1
+#2
+#1
+
+#Output:
+#1 + 2 + 1  = 
+
+
+
+
+#Functions 
+
+
+def addition (x,y):
+  return x + y
+
+def subtraction (x,y):
+  return x - y
+
+def multiplication (x,y):
+  return x * y
+
+def division (x,y):
+  return x/y
+
+##Main
+
+numbers = input("Please enter an opperation you would like to do out of,addition,subtraction, multiplication or division?: " )
+
+
+
+
+
+if (numbers == "addition"):
+  x = int((input("Ok, now enter how many numbers you would like to add.")))
+  for i in range (0,x):
+    input("Enter an integer you would like to add")
+    a = []
+    a.append(input("Enter an integer you would like to add"))   
+   
+if (numbers == "subtraction"):
+  x =  int((input("Ok, now enter how many numbers you would like to subtract.")))
+  for i in range (0,x):
+    input("Enter an integer you would like to subtract")
+
+if (numbers == "multiplication"):
+  x = int((input("Ok, now enter how many numbers you would like to multiply.")))
+  for i in range (0,x):
+    input("Enter an integer you would like to multiply")
+
+if (numbers == "division"):
+  x = int((input("Ok now enter how many numbers you would like to divide. ")))
+  for i in range (0,x):
+    input("Enter an integer you would like to divide")
