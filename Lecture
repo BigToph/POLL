@@ -1,0 +1,17 @@
+#Create a code that asks the user for two numbers
+#Print every number between those two numbers (inclusive)
+#If any of the numbers are multiples of 4, print "Fizz" instead of the number
+
+##Assumptions x = "6", y = "12"
+
+x = input("Please print one number" )
+
+y = input ("PLease enter one mumber")
+
+for i in range (int(x),int(y) + 1):
+  if((i)%4==0):
+    print ("Fizz")
+  else:
+    print (i)
+    
+    #float declares a decimal
